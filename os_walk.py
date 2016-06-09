@@ -34,7 +34,7 @@ if __name__ == '__main__':
     path = r"./"
 
     for i in dir_list(path):
-        print i
+        print(i)
 
     for j in file_list(path, [".py"]):
-        print j
+        print(j)
